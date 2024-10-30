@@ -20,7 +20,7 @@ contract Subasta{
 
     address private owner;
 
-    //mapping para hacer un punteo de direcciones y valores
+    //mapping para hacer un punteo de direcciones y respectivos valores
 
     mapping (address => uint256 ) public valoreMetido;
 
